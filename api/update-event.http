@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11amVlYi5raGFuQGhleXRvcnVzLmNvbSIsImV4cCI6MTcwNzAzODI5MCwidXNlcklkIjoyfQ.UOpSyRYeOFiMmEStxC6qk068NqwiCCO_AP9PK8ccIuU
+
+{
+    "name":"Updated Event",
+    "description":"Updated Event Description",
+    "location":"Updated Location",
+    "datetime":"2024-02-02T17:30:00.000Z"
+}
